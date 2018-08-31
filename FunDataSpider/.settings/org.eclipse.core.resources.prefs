@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/exception/SysException.py=utf-8
-encoding//src/spider/FundSipder.py=utf-8
-encoding//src/spider/HomeSpider.py=utf-8
+encoding//src/fundutil/DBUtil.py=utf-8
+encoding//src/spider/DBUtil.py=utf-8
+encoding//src/spider/FundDataSipder.py=utf-8
+encoding//src/spider/HomePageSipder.py=utf-8
+encoding//src/test/GarmmerTest.py=utf-8
 encoding/src=UTF-8
