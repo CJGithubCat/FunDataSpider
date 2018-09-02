@@ -1,0 +1,686 @@
+var FundCommpanyInfos=[{
+	"_id": "80000227",
+	"COMPANYCODE": "80000227",
+	"SNAME": "长盛基金",
+	"SEARCHFIELD": "80000227长盛基金管理有限公司长盛基金CSJJ"
+}, {
+	"_id": "80000230",
+	"COMPANYCODE": "80000230",
+	"SNAME": "鹏华基金",
+	"SEARCHFIELD": "80000230鹏华基金管理有限公司鹏华基金PHJJ"
+}, {
+	"_id": "80000223",
+	"COMPANYCODE": "80000223",
+	"SNAME": "嘉实基金",
+	"SEARCHFIELD": "80000223嘉实基金管理有限公司嘉实基金JSJJ"
+}, {
+	"_id": "80000243",
+	"COMPANYCODE": "80000243",
+	"SNAME": "长信基金",
+	"SEARCHFIELD": "80000243长信基金管理有限责任公司长信基金CXJJ"
+}, {
+	"_id": "80000095",
+	"COMPANYCODE": "80000095",
+	"SNAME": "国都证券",
+	"SEARCHFIELD": "80000095国都证券股份有限公司国都证券GDZQ"
+}, {
+	"_id": "80065113",
+	"COMPANYCODE": "80065113",
+	"SNAME": "中欧基金",
+	"SEARCHFIELD": "80065113中欧基金管理有限公司中欧基金ZOJJ"
+}, {
+	"_id": "80000225",
+	"COMPANYCODE": "80000225",
+	"SNAME": "大成基金",
+	"SEARCHFIELD": "80000225大成基金管理有限公司大成基金DCJJ"
+}, {
+	"_id": "80000233",
+	"COMPANYCODE": "80000233",
+	"SNAME": "国投瑞银基金",
+	"SEARCHFIELD": "80000233国投瑞银基金管理有限公司国投瑞银基金GTRYJJ"
+}, {
+	"_id": "80000250",
+	"COMPANYCODE": "80000250",
+	"SNAME": "华宝基金",
+	"SEARCHFIELD": "80000250华宝基金管理有限公司华宝基金HBJJ"
+}, {
+	"_id": "80000237",
+	"COMPANYCODE": "80000237",
+	"SNAME": "银河基金",
+	"SEARCHFIELD": "80000237银河基金管理有限公司银河基金YHJJ"
+}, {
+	"_id": "80000251",
+	"COMPANYCODE": "80000251",
+	"SNAME": "景顺长城基金",
+	"SEARCHFIELD": "80000251景顺长城基金管理有限公司景顺长城基金JSCCJJ"
+}, {
+	"_id": "80048161",
+	"COMPANYCODE": "80048161",
+	"SNAME": "东吴基金",
+	"SEARCHFIELD": "80048161东吴基金管理有限公司东吴基金DWJJ"
+}, {
+	"_id": "80000231",
+	"COMPANYCODE": "80000231",
+	"SNAME": "融通基金",
+	"SEARCHFIELD": "80000231融通基金管理有限公司融通基金RTJJ"
+}, {
+	"_id": "80068180",
+	"COMPANYCODE": "80068180",
+	"SNAME": "诺德基金",
+	"SEARCHFIELD": "80068180诺德基金管理有限公司诺德基金NDJJ"
+}, {
+	"_id": "80000224",
+	"COMPANYCODE": "80000224",
+	"SNAME": "国泰基金",
+	"SEARCHFIELD": "80000224国泰基金管理有限公司国泰基金GTJJ"
+}, {
+	"_id": "80075936",
+	"COMPANYCODE": "80075936",
+	"SNAME": "中邮基金",
+	"SEARCHFIELD": "80075936中邮创业基金管理股份有限公司中邮基金ZYJJ"
+}, {
+	"_id": "80086876",
+	"COMPANYCODE": "80086876",
+	"SNAME": "金元顺安基金",
+	"SEARCHFIELD": "80086876金元顺安基金管理有限公司金元顺安基金JYSAJJ"
+}, {
+	"_id": "80139382",
+	"COMPANYCODE": "80139382",
+	"SNAME": "长安基金",
+	"SEARCHFIELD": "80139382长安基金管理有限公司长安基金CAJJ"
+}, {
+	"_id": "80036742",
+	"COMPANYCODE": "80036742",
+	"SNAME": "兴全基金",
+	"SEARCHFIELD": "80036742兴全基金管理有限公司兴全基金XQJJ"
+}, {
+	"_id": "80045188",
+	"COMPANYCODE": "80045188",
+	"SNAME": "申万菱信基金",
+	"SEARCHFIELD": "80045188申万菱信基金管理有限公司申万菱信基金SWLXJJ"
+}, {
+	"_id": "80000222",
+	"COMPANYCODE": "80000222",
+	"SNAME": "华夏基金",
+	"SEARCHFIELD": "80000222华夏基金管理有限公司华夏基金HXJJ"
+}, {
+	"_id": "80064225",
+	"COMPANYCODE": "80064225",
+	"SNAME": "工银瑞信基金",
+	"SEARCHFIELD": "80064225工银瑞信基金管理有限公司工银瑞信基金GYRXJJ"
+}, {
+	"_id": "80092233",
+	"COMPANYCODE": "80092233",
+	"SNAME": "农银汇理基金",
+	"SEARCHFIELD": "80092233农银汇理基金管理有限公司农银汇理基金NYHLJJ"
+}, {
+	"_id": "80000249",
+	"COMPANYCODE": "80000249",
+	"SNAME": "新华基金",
+	"SEARCHFIELD": "80000249新华基金管理股份有限公司新华基金XHJJ"
+}, {
+	"_id": "80036782",
+	"COMPANYCODE": "80036782",
+	"SNAME": "招商基金",
+	"SEARCHFIELD": "80036782招商基金管理有限公司招商基金ZSJJ"
+}, {
+	"_id": "80042861",
+	"COMPANYCODE": "80042861",
+	"SNAME": "东方基金",
+	"SEARCHFIELD": "80042861东方基金管理有限责任公司东方基金DFJJ"
+}, {
+	"_id": "80000226",
+	"COMPANYCODE": "80000226",
+	"SNAME": "博时基金",
+	"SEARCHFIELD": "80000226博时基金管理有限公司博时基金BSJJ"
+}, {
+	"_id": "80000080",
+	"COMPANYCODE": "80000080",
+	"SNAME": "山西证券",
+	"SEARCHFIELD": "80000080山西证券股份有限公司山西证券SXZQ"
+}, {
+	"_id": "80048752",
+	"COMPANYCODE": "80048752",
+	"SNAME": "中银基金",
+	"SEARCHFIELD": "80048752中银基金管理有限公司中银基金ZYJJ"
+}, {
+	"_id": "80000229",
+	"COMPANYCODE": "80000229",
+	"SNAME": "易方达基金",
+	"SEARCHFIELD": "80000229易方达基金管理有限公司易方达基金YFDJJ"
+}, {
+	"_id": "80102419",
+	"COMPANYCODE": "80102419",
+	"SNAME": "国金基金",
+	"SEARCHFIELD": "80102419国金基金管理有限公司国金基金GJJJ"
+}, {
+	"_id": "80000236",
+	"COMPANYCODE": "80000236",
+	"SNAME": "宝盈基金",
+	"SEARCHFIELD": "80000236宝盈基金管理有限公司宝盈基金BYJJ"
+}, {
+	"_id": "80000245",
+	"COMPANYCODE": "80000245",
+	"SNAME": "金鹰基金",
+	"SEARCHFIELD": "80000245金鹰基金管理有限公司金鹰基金JYJJ"
+}, {
+	"_id": "80041198",
+	"COMPANYCODE": "80041198",
+	"SNAME": "天弘基金",
+	"SEARCHFIELD": "80041198天弘基金管理有限公司天弘基金THJJ"
+}, {
+	"_id": "80000240",
+	"COMPANYCODE": "80000240",
+	"SNAME": "万家基金",
+	"SEARCHFIELD": "80000240万家基金管理有限公司万家基金WJJJ"
+}, {
+	"_id": "80046614",
+	"COMPANYCODE": "80046614",
+	"SNAME": "中海基金",
+	"SEARCHFIELD": "80046614中海基金管理有限公司中海基金ZHJJ"
+}, {
+	"_id": "80000238",
+	"COMPANYCODE": "80000238",
+	"SNAME": "泰达宏利基金",
+	"SEARCHFIELD": "80000238泰达宏利基金管理有限公司泰达宏利基金TDHLJJ"
+}, {
+	"_id": "80000239",
+	"COMPANYCODE": "80000239",
+	"SNAME": "长城基金",
+	"SEARCHFIELD": "80000239长城基金管理有限公司长城基金CCJJ"
+}, {
+	"_id": "80050229",
+	"COMPANYCODE": "80050229",
+	"SNAME": "上投摩根基金",
+	"SEARCHFIELD": "80050229上投摩根基金管理有限公司上投摩根基金STMGJJ"
+}, {
+	"_id": "80065990",
+	"COMPANYCODE": "80065990",
+	"SNAME": "建信基金",
+	"SEARCHFIELD": "80065990建信基金管理有限责任公司建信基金JXJJ"
+}, {
+	"_id": "80053204",
+	"COMPANYCODE": "80053204",
+	"SNAME": "华商基金",
+	"SEARCHFIELD": "80053204华商基金管理有限公司华商基金HSJJ"
+}, {
+	"_id": "80066470",
+	"COMPANYCODE": "80066470",
+	"SNAME": "中信保诚基金",
+	"SEARCHFIELD": "80066470中信保诚基金管理有限公司中信保诚基金ZXBCJJ"
+}, {
+	"_id": "80092743",
+	"COMPANYCODE": "80092743",
+	"SNAME": "华融证券",
+	"SEARCHFIELD": "80092743华融证券股份有限公司华融证券HRZQ"
+}, {
+	"_id": "80000246",
+	"COMPANYCODE": "80000246",
+	"SNAME": "海富通基金",
+	"SEARCHFIELD": "80000246海富通基金管理有限公司海富通基金HFTJJ"
+}, {
+	"_id": "80043374",
+	"COMPANYCODE": "80043374",
+	"SNAME": "国联安基金",
+	"SEARCHFIELD": "80043374国联安基金管理有限公司国联安基金GLAJJ"
+}, {
+	"_id": "80049689",
+	"COMPANYCODE": "80049689",
+	"SNAME": "诺安基金",
+	"SEARCHFIELD": "80049689诺安基金管理有限公司诺安基金NAJJ"
+}, {
+	"_id": "80067635",
+	"COMPANYCODE": "80067635",
+	"SNAME": "汇丰晋信基金",
+	"SEARCHFIELD": "80067635汇丰晋信基金管理有限公司汇丰晋信基金HFJXJJ"
+}, {
+	"_id": "80091787",
+	"COMPANYCODE": "80091787",
+	"SNAME": "浦银安盛基金",
+	"SEARCHFIELD": "80091787浦银安盛基金管理有限公司浦银安盛基金PYASJJ"
+}, {
+	"_id": "80044515",
+	"COMPANYCODE": "80044515",
+	"SNAME": "国海富兰克林基金",
+	"SEARCHFIELD": "80044515国海富兰克林基金管理有限公司国海富兰克林基金GHFLKLJJ"
+}, {
+	"_id": "80000235",
+	"COMPANYCODE": "80000235",
+	"SNAME": "银华基金",
+	"SEARCHFIELD": "80000235银华基金管理股份有限公司银华基金YHJJ"
+}, {
+	"_id": "80064562",
+	"COMPANYCODE": "80064562",
+	"SNAME": "交银施罗德基金",
+	"SEARCHFIELD": "80064562交银施罗德基金管理有限公司交银施罗德基金JYSLDJJ"
+}, {
+	"_id": "80000220",
+	"COMPANYCODE": "80000220",
+	"SNAME": "南方基金",
+	"SEARCHFIELD": "80000220南方基金管理股份有限公司南方基金NFJJ"
+}, {
+	"_id": "80000221",
+	"COMPANYCODE": "80000221",
+	"SNAME": "富国基金",
+	"SEARCHFIELD": "80000221富国基金管理有限公司富国基金FGJJ"
+}, {
+	"_id": "80036797",
+	"COMPANYCODE": "80036797",
+	"SNAME": "摩根士丹利华鑫基金",
+	"SEARCHFIELD": "80036797摩根士丹利华鑫基金管理有限公司摩根士丹利华鑫基金MGSDLHXJJ"
+}, {
+	"_id": "80000248",
+	"COMPANYCODE": "80000248",
+	"SNAME": "广发基金",
+	"SEARCHFIELD": "80000248广发基金管理有限公司广发基金GFJJ"
+}, {
+	"_id": "80000228",
+	"COMPANYCODE": "80000228",
+	"SNAME": "华安基金",
+	"SEARCHFIELD": "80000228华安基金管理有限公司华安基金HAJJ"
+}, {
+	"_id": "80048088",
+	"COMPANYCODE": "80048088",
+	"SNAME": "光大保德信基金",
+	"SEARCHFIELD": "80048088光大保德信基金管理有限公司光大保德信基金GDBDXJJ"
+}, {
+	"_id": "80053708",
+	"COMPANYCODE": "80053708",
+	"SNAME": "汇添富基金",
+	"SEARCHFIELD": "80053708汇添富基金管理股份有限公司汇添富基金HTFJJ"
+}, {
+	"_id": "80055334",
+	"COMPANYCODE": "80055334",
+	"SNAME": "华泰柏瑞基金",
+	"SEARCHFIELD": "80055334华泰柏瑞基金管理有限公司华泰柏瑞基金HTBRJJ"
+}, {
+	"_id": "80114781",
+	"COMPANYCODE": "80114781",
+	"SNAME": "东兴证券",
+	"SEARCHFIELD": "80114781东兴证券股份有限公司东兴证券DXZQ"
+}, {
+	"_id": "80000252",
+	"COMPANYCODE": "80000252",
+	"SNAME": "天治基金",
+	"SEARCHFIELD": "80000252天治基金管理有限公司天治基金TZJJ"
+}, {
+	"_id": "80074234",
+	"COMPANYCODE": "80074234",
+	"SNAME": "信达澳银基金",
+	"SEARCHFIELD": "80074234信达澳银基金管理有限公司信达澳银基金XDAYJJ"
+}, {
+	"_id": "80106677",
+	"COMPANYCODE": "80106677",
+	"SNAME": "民生加银基金",
+	"SEARCHFIELD": "80106677民生加银基金管理有限公司民生加银基金MSJYJJ"
+}, {
+	"_id": "80046522",
+	"COMPANYCODE": "80046522",
+	"SNAME": "益民基金",
+	"SEARCHFIELD": "80046522益民基金管理有限公司益民基金YMJJ"
+}, {
+	"_id": "80000247",
+	"COMPANYCODE": "80000247",
+	"SNAME": "泰信基金",
+	"SEARCHFIELD": "80000247泰信基金管理有限公司泰信基金TXJJ"
+}, {
+	"_id": "80037023",
+	"COMPANYCODE": "80037023",
+	"SNAME": "华富基金",
+	"SEARCHFIELD": "80037023华富基金管理有限公司华富基金HFJJ"
+}, {
+	"_id": "80061674",
+	"COMPANYCODE": "80061674",
+	"SNAME": "泰康资产",
+	"SEARCHFIELD": "80061674泰康资产管理有限责任公司泰康资产TKZC"
+}, {
+	"_id": "80128562",
+	"COMPANYCODE": "80128562",
+	"SNAME": "富安达基金",
+	"SEARCHFIELD": "80128562富安达基金管理有限公司富安达基金FADJJ"
+}, {
+	"_id": "80175498",
+	"COMPANYCODE": "80175498",
+	"SNAME": "英大基金",
+	"SEARCHFIELD": "80175498英大基金管理有限公司英大基金YDJJ"
+}, {
+	"_id": "80201857",
+	"COMPANYCODE": "80201857",
+	"SNAME": "华宸未来基金",
+	"SEARCHFIELD": "80201857华宸未来基金管理有限公司华宸未来基金HCWLJJ"
+}, {
+	"_id": "80280036",
+	"COMPANYCODE": "80280036",
+	"SNAME": "圆信永丰基金",
+	"SEARCHFIELD": "80280036圆信永丰基金管理有限公司圆信永丰基金YXYFJJ"
+}, {
+	"_id": "80455765",
+	"COMPANYCODE": "80455765",
+	"SNAME": "中科沃土基金",
+	"SEARCHFIELD": "80455765中科沃土基金管理有限公司中科沃土基金ZKWTJJ"
+}, {
+	"_id": "80488954",
+	"COMPANYCODE": "80488954",
+	"SNAME": "富荣基金",
+	"SEARCHFIELD": "80488954富荣基金管理有限公司富荣基金FRJJ"
+}, {
+	"_id": "80404004",
+	"COMPANYCODE": "80404004",
+	"SNAME": "长江证券(上海)",
+	"SEARCHFIELD": "80404004长江证券(上海)资产管理有限公司长江证券(上海)CJZQSH"
+}, {
+	"_id": "80555446",
+	"COMPANYCODE": "80555446",
+	"SNAME": "南华基金",
+	"SEARCHFIELD": "80555446南华基金管理有限公司南华基金NHJJ"
+}, {
+	"_id": "80145102",
+	"COMPANYCODE": "80145102",
+	"SNAME": "上海东方证券资产管理",
+	"SEARCHFIELD": "80145102上海东方证券资产管理有限公司上海东方证券资产管理SHDFZQZCGL"
+}, {
+	"_id": "80168726",
+	"COMPANYCODE": "80168726",
+	"SNAME": "平安大华基金",
+	"SEARCHFIELD": "80168726平安大华基金管理有限公司平安大华基金PADHJJ"
+}, {
+	"_id": "80161341",
+	"COMPANYCODE": "80161341",
+	"SNAME": "财通基金",
+	"SEARCHFIELD": "80161341财通基金管理有限公司财通基金CTJJ"
+}, {
+	"_id": "80147736",
+	"COMPANYCODE": "80147736",
+	"SNAME": "西部利得基金",
+	"SEARCHFIELD": "80147736西部利得基金管理有限公司西部利得基金XBLDJJ"
+}, {
+	"_id": "80355783",
+	"COMPANYCODE": "80355783",
+	"SNAME": "国寿安保基金",
+	"SEARCHFIELD": "80355783国寿安保基金管理有限公司国寿安保基金GSABJJ"
+}, {
+	"_id": "80424273",
+	"COMPANYCODE": "80424273",
+	"SNAME": "泓德基金",
+	"SEARCHFIELD": "80424273泓德基金管理有限公司泓德基金HDJJ"
+}, {
+	"_id": "80294346",
+	"COMPANYCODE": "80294346",
+	"SNAME": "太平基金",
+	"SEARCHFIELD": "80294346太平基金管理有限公司太平基金TPJJ"
+}, {
+	"_id": "80498278",
+	"COMPANYCODE": "80498278",
+	"SNAME": "汇安基金",
+	"SEARCHFIELD": "80498278汇安基金管理有限责任公司汇安基金HAJJ"
+}, {
+	"_id": "80056613",
+	"COMPANYCODE": "80056613",
+	"SNAME": "高华证券",
+	"SEARCHFIELD": "80056613北京高华证券有限责任公司高华证券GHZQ"
+}, {
+	"_id": "80351991",
+	"COMPANYCODE": "80351991",
+	"SNAME": "鑫元基金",
+	"SEARCHFIELD": "80351991鑫元基金管理有限公司鑫元基金XYJJ"
+}, {
+	"_id": "80501166",
+	"COMPANYCODE": "80501166",
+	"SNAME": "先锋基金",
+	"SEARCHFIELD": "80501166先锋基金管理有限公司先锋基金XFJJ"
+}, {
+	"_id": "80508391",
+	"COMPANYCODE": "80508391",
+	"SNAME": "中航基金",
+	"SEARCHFIELD": "80508391中航基金管理有限公司中航基金ZHJJ"
+}, {
+	"_id": "80000180",
+	"COMPANYCODE": "80000180",
+	"SNAME": "渤海证券",
+	"SEARCHFIELD": "80000180渤海证券股份有限公司渤海证券BHZQ"
+}, {
+	"_id": "80366080",
+	"COMPANYCODE": "80366080",
+	"SNAME": "上银基金",
+	"SEARCHFIELD": "80366080上银基金管理有限公司上银基金SYJJ"
+}, {
+	"_id": "80174741",
+	"COMPANYCODE": "80174741",
+	"SNAME": "方正富邦基金",
+	"SEARCHFIELD": "80174741方正富邦基金管理有限公司方正富邦基金FZFBJJ"
+}, {
+	"_id": "80175511",
+	"COMPANYCODE": "80175511",
+	"SNAME": "德邦基金",
+	"SEARCHFIELD": "80175511德邦基金管理有限公司德邦基金DBJJ"
+}, {
+	"_id": "80446423",
+	"COMPANYCODE": "80446423",
+	"SNAME": "金信基金",
+	"SEARCHFIELD": "80446423金信基金管理有限公司金信基金JXJJ"
+}, {
+	"_id": "80205264",
+	"COMPANYCODE": "80205264",
+	"SNAME": "江信基金",
+	"SEARCHFIELD": "80205264江信基金管理有限公司江信基金JXJJ"
+}, {
+	"_id": "80205263",
+	"COMPANYCODE": "80205263",
+	"SNAME": "红塔红土",
+	"SEARCHFIELD": "80205263红塔红土基金管理有限公司红塔红土HTHT"
+}, {
+	"_id": "80380794",
+	"COMPANYCODE": "80380794",
+	"SNAME": "创金合信基金",
+	"SEARCHFIELD": "80380794创金合信基金管理有限公司创金合信基金CJHXJJ"
+}, {
+	"_id": "80452130",
+	"COMPANYCODE": "80452130",
+	"SNAME": "新沃基金",
+	"SEARCHFIELD": "80452130新沃基金管理有限公司新沃基金XWJJ"
+}, {
+	"_id": "80156777",
+	"COMPANYCODE": "80156777",
+	"SNAME": "浙商基金",
+	"SEARCHFIELD": "80156777浙商基金管理有限公司浙商基金ZSJJ"
+}, {
+	"_id": "80163340",
+	"COMPANYCODE": "80163340",
+	"SNAME": "安信基金",
+	"SEARCHFIELD": "80163340安信基金管理有限责任公司安信基金AXJJ"
+}, {
+	"_id": "80280395",
+	"COMPANYCODE": "80280395",
+	"SNAME": "兴业基金",
+	"SEARCHFIELD": "80280395兴业基金管理有限公司兴业基金XYJJ"
+}, {
+	"_id": "80280039",
+	"COMPANYCODE": "80280039",
+	"SNAME": "国开泰富基金",
+	"SEARCHFIELD": "80280039国开泰富基金管理有限责任公司国开泰富基金GKTFJJ"
+}, {
+	"_id": "80404701",
+	"COMPANYCODE": "80404701",
+	"SNAME": "财通资管",
+	"SEARCHFIELD": "80404701财通证券资产管理有限公司财通资管CTZG"
+}, {
+	"_id": "80403111",
+	"COMPANYCODE": "80403111",
+	"SNAME": "浙商证券资管",
+	"SEARCHFIELD": "80403111浙江浙商证券资产管理有限公司浙商证券资管ZSZQZG"
+}, {
+	"_id": "80205268",
+	"COMPANYCODE": "80205268",
+	"SNAME": "东海基金",
+	"SEARCHFIELD": "80205268东海基金管理有限责任公司东海基金DHJJ"
+}, {
+	"_id": "80355113",
+	"COMPANYCODE": "80355113",
+	"SNAME": "中信建投基金",
+	"SEARCHFIELD": "80355113中信建投基金管理有限公司中信建投基金ZXJTJJ"
+}, {
+	"_id": "80356155",
+	"COMPANYCODE": "80356155",
+	"SNAME": "永赢基金",
+	"SEARCHFIELD": "80356155永赢基金管理有限公司永赢基金YYJJ"
+}, {
+	"_id": "80280038",
+	"COMPANYCODE": "80280038",
+	"SNAME": "前海开源基金",
+	"SEARCHFIELD": "80280038前海开源基金管理有限公司前海开源基金QHKYJJ"
+}, {
+	"_id": "80365985",
+	"COMPANYCODE": "80365985",
+	"SNAME": "北信瑞丰",
+	"SEARCHFIELD": "80365985北信瑞丰基金管理有限公司北信瑞丰BXRF"
+}, {
+	"_id": "80365986",
+	"COMPANYCODE": "80365986",
+	"SNAME": "中金基金",
+	"SEARCHFIELD": "80365986中金基金管理有限公司中金基金ZJJJ"
+}, {
+	"_id": "80548351",
+	"COMPANYCODE": "80548351",
+	"SNAME": "格林基金",
+	"SEARCHFIELD": "80548351格林基金管理有限公司格林基金GLJJ"
+}, {
+	"_id": "80523667",
+	"COMPANYCODE": "80523667",
+	"SNAME": "华泰保兴",
+	"SEARCHFIELD": "80523667华泰保兴基金管理有限公司华泰保兴HTBX"
+}, {
+	"_id": "80351345",
+	"COMPANYCODE": "80351345",
+	"SNAME": "中加基金",
+	"SEARCHFIELD": "80351345中加基金管理有限公司中加基金ZJJJ"
+}, {
+	"_id": "80508384",
+	"COMPANYCODE": "80508384",
+	"SNAME": "恒生前海基金",
+	"SEARCHFIELD": "80508384恒生前海基金管理有限公司恒生前海基金HSQHJJ"
+}, {
+	"_id": "80384640",
+	"COMPANYCODE": "80384640",
+	"SNAME": "九泰基金",
+	"SEARCHFIELD": "80384640九泰基金管理有限公司九泰基金JTJJ"
+}, {
+	"_id": "80522693",
+	"COMPANYCODE": "80522693",
+	"SNAME": "鹏扬基金",
+	"SEARCHFIELD": "80522693鹏扬基金管理有限公司鹏扬基金PYJJ"
+}, {
+	"_id": "80385906",
+	"COMPANYCODE": "80385906",
+	"SNAME": "红土创新基金",
+	"SEARCHFIELD": "80385906红土创新基金管理有限公司红土创新基金HTCXJJ"
+}, {
+	"_id": "80199117",
+	"COMPANYCODE": "80199117",
+	"SNAME": "华润元大基金",
+	"SEARCHFIELD": "80199117华润元大基金管理有限公司华润元大基金HRYDJJ"
+}, {
+	"_id": "80468996",
+	"COMPANYCODE": "80468996",
+	"SNAME": "前海联合",
+	"SEARCHFIELD": "80468996新疆前海联合基金管理有限公司前海联合QHLH"
+}, {
+	"_id": "80341238",
+	"COMPANYCODE": "80341238",
+	"SNAME": "中融基金",
+	"SEARCHFIELD": "80341238中融基金管理有限公司中融基金ZRJJ"
+}, {
+	"_id": "80365987",
+	"COMPANYCODE": "80365987",
+	"SNAME": "嘉合基金",
+	"SEARCHFIELD": "80365987嘉合基金管理有限公司嘉合基金JHJJ"
+}, {
+	"_id": "80368700",
+	"COMPANYCODE": "80368700",
+	"SNAME": "兴银基金",
+	"SEARCHFIELD": "80368700兴银基金管理有限责任公司兴银基金XYJJ"
+}, {
+	"_id": "80000200",
+	"COMPANYCODE": "80000200",
+	"SNAME": "中银国际证券",
+	"SEARCHFIELD": "80000200中银国际证券股份有限公司中银国际证券ZYGJZQ"
+}, {
+	"_id": "80560381",
+	"COMPANYCODE": "80560381",
+	"SNAME": "凯石基金",
+	"SEARCHFIELD": "80560381凯石基金管理有限公司凯石基金KSJJ"
+}, {
+	"_id": "80560389",
+	"COMPANYCODE": "80560389",
+	"SNAME": "国融基金",
+	"SEARCHFIELD": "80560389国融基金管理有限公司国融基金GRJJ"
+}, {
+	"_id": "80560392",
+	"COMPANYCODE": "80560392",
+	"SNAME": "博道基金",
+	"SEARCHFIELD": "80560392博道基金管理有限公司博道基金BDJJ"
+}, {
+	"_id": "80538609",
+	"COMPANYCODE": "80538609",
+	"SNAME": "渤海汇金",
+	"SEARCHFIELD": "80538609渤海汇金证券资产管理有限公司渤海汇金BHHJ"
+}, {
+	"_id": "80391977",
+	"COMPANYCODE": "80391977",
+	"SNAME": "华泰证券(上海)",
+	"SEARCHFIELD": "80391977华泰证券(上海)资产管理有限公司华泰证券(上海)HTZQSH"
+}, {
+	"_id": "80061431",
+	"COMPANYCODE": "80061431",
+	"SNAME": "人保资产",
+	"SEARCHFIELD": "80061431中国人保资产管理有限公司人保资产RBZC"
+}, {
+	"_id": "80560388",
+	"COMPANYCODE": "80560388",
+	"SNAME": "东方阿尔法基金",
+	"SEARCHFIELD": "80560388东方阿尔法基金管理有限公司东方阿尔法基金DFAEFJJ"
+}, {
+	"_id": "80560380",
+	"COMPANYCODE": "80560380",
+	"SNAME": "恒越基金",
+	"SEARCHFIELD": "80560380恒越基金管理有限公司恒越基金HYJJ"
+}, {
+	"_id": "80560396",
+	"COMPANYCODE": "80560396",
+	"SNAME": "合煦智远基金",
+	"SEARCHFIELD": "80560396合煦智远基金管理有限公司合煦智远基金HXZYJJ"
+}, {
+	"_id": "80560379",
+	"COMPANYCODE": "80560379",
+	"SNAME": "弘毅远方基金",
+	"SEARCHFIELD": "80560379弘毅远方基金管理有限公司弘毅远方基金HYYFJJ"
+}, {
+	"_id": "80560393",
+	"COMPANYCODE": "80560393",
+	"SNAME": "华融基金",
+	"SEARCHFIELD": "80560393华融基金管理有限公司华融基金HRJJ"
+}, {
+	"_id": "80560391",
+	"COMPANYCODE": "80560391",
+	"SNAME": "中庚基金",
+	"SEARCHFIELD": "80560391中庚基金管理有限公司中庚基金ZGJJ"
+}, {
+	"_id": "80280397",
+	"COMPANYCODE": "80280397",
+	"SNAME": "湘财基金",
+	"SEARCHFIELD": "80280397湘财基金管理有限公司湘财基金XCJJ"
+}, {
+	"_id": "80664536",
+	"COMPANYCODE": "80664536",
+	"SNAME": "明亚基金",
+	"SEARCHFIELD": "80664536明亚基金管理有限责任公司明亚基金MYJJ"
+}, {
+	"_id": "80560383",
+	"COMPANYCODE": "80560383",
+	"SNAME": "蜂巢基金",
+	"SEARCHFIELD": "80560383蜂巢基金管理有限公司蜂巢基金FCJJ"
+}, {
+	"_id": "80924817",
+	"COMPANYCODE": "80924817",
+	"SNAME": "惠升基金",
+	"SEARCHFIELD": "80924817惠升基金管理有限责任公司惠升基金HSJJ"
+}]

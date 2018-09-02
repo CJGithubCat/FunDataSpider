@@ -6,6 +6,7 @@ import re
 from pyquery import PyQuery as pq
 from lxml import etree
 from spider.DBUtil import *
+from spider.Sipder import Spider
 
 '''
 Title  : 基金数据爬虫程序    

@@ -1,8 +1,15 @@
 eclipse.preferences.version=1
+encoding//htmls/fund.html=UTF-8
+encoding//htmls/indexFund.html=UTF-8
 encoding//src/exception/SysException.py=utf-8
 encoding//src/fundutil/DBUtil.py=utf-8
+encoding//src/pojo/TFundSummary.py=utf-8
+encoding//src/pojo/TWebsiteInfo.py=utf-8
 encoding//src/spider/DBUtil.py=utf-8
 encoding//src/spider/FundDataSipder.py=utf-8
 encoding//src/spider/HomePageSipder.py=utf-8
+encoding//src/spider/Sipder.py=utf-8
+encoding//src/spider/Test.py=utf-8
 encoding//src/test/GarmmerTest.py=utf-8
+encoding//src/test/HomeSpider.py=utf-8
 encoding/src=UTF-8

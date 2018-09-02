@@ -38,7 +38,18 @@ class DBUtil(object):
             return rows
         except pymysql.err.Error as e:
             print(e)
-
+    
+    def update(self,sql,data):
+        try:
+            conn = pymysql.connect(host=self.host,port=self.port,user=self.username,passwd=self.password,db=self.dbname,charset='utf8')
+            cursor = conn.cursor()
+            cursor.execute(sql % data)
+            conn.commit()
+            cursor.close()
+            conn.close()
+        except pymysql.err.Error as e:
+            print(e)
+          
 if __name__=="__main__":
     dbUtil = DBUtil("127.0.0.1",3306,"root","root","fund","utf-8")
     sql="INSERT INTO t_website_info(item_name,item_url) VALUES(%s,%s)";
