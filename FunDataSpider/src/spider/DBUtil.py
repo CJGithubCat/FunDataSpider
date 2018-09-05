@@ -17,7 +17,7 @@ class DBUtil(object):
         try:
             conn = pymysql.connect(host=self.host,port=self.port,user=self.username,passwd=self.password,db=self.dbname,charset='utf8')
             cursor = conn.cursor()
-            cursor.executemany(sql,list)
+            cursor.execute(sql,list)
             conn.commit()
             cursor.close()
             conn.close()
@@ -52,7 +52,7 @@ class DBUtil(object):
           
 if __name__=="__main__":
     dbUtil = DBUtil("127.0.0.1",3306,"root","root","fund","utf-8")
-    sql="INSERT INTO t_website_info(item_name,item_url) VALUES(%s,%s)";
+    sql="INSERT INTO t_website_info(item_name,item_url) VALUES(%s,%s)"
     list=[("B","22"),("C","33")]
     dbUtil.insert(sql, list)
     

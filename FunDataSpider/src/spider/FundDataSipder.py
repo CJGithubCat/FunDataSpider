@@ -1502,4 +1502,4 @@ class FundDataSpider(Spider):
     
 if __name__=='__main__':
     fundDataSpider = FundDataSpider()
-    fundDataSpider.loadCompanyInfo();
+    fundDataSpider.parse1Level();
