@@ -443,7 +443,7 @@ class IndexInfoSipder(Spider):
             
             #param = (index_id,index_code,indx_sname,index_ename,base_point,base_date,online_date,index_c_intro,hangqingzoushi,make_method,weihuxize,chengfenguliebiao,type1)
             print(paramList)
-            insertSql = "INSERT INTO t_index_new(index_id,index_code,indx_sname,index_ename,base_point,base_date,online_date,index_c_intro,hangqingzoushi,make_method,weihuxize,chengfenguliebiao,agencyType) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s) ON DUPLICATE KEY UPDATE date_create = NOW()"
+            insertSql = "INSERT INTO t_index_new(index_id,index_code,indx_sname,index_ename,base_point,base_date,online_date,index_c_intro,hangqingzoushi,make_method,weihuxize,chengfenguliebiao,agencyType) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s) ON DUPLICATE KEY UPDATE date_create = NOW() ON DUPLICATE KEY UPDATE remark =''"
             dbUtil = DBUtil("127.0.0.1",3306,"root","root","fund","utf-8")
             dbUtil.insert(insertSql, paramList)
             
